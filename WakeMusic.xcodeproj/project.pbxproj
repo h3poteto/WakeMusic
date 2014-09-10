@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9AD9FD919C0307000A6EC78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AD9FD819C0307000A6EC78 /* AppDelegate.swift */; };
+		E9AD9FDB19C0307000A6EC78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AD9FDA19C0307000A6EC78 /* ViewController.swift */; };
+		E9AD9FDE19C0307000A6EC78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9AD9FDC19C0307000A6EC78 /* Main.storyboard */; };
+		E9AD9FE019C0307000A6EC78 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9AD9FDF19C0307000A6EC78 /* Images.xcassets */; };
+		E9AD9FE319C0307000A6EC78 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9AD9FE119C0307000A6EC78 /* LaunchScreen.xib */; };
+		E9AD9FEF19C0307000A6EC78 /* WakeMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AD9FEE19C0307000A6EC78 /* WakeMusicTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9AD9FE919C0307000A6EC78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9AD9FCB19C0307000A6EC78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9AD9FD219C0307000A6EC78;
+			remoteInfo = WakeMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E9AD9FD319C0307000A6EC78 /* WakeMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WakeMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9AD9FD719C0307000A6EC78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9AD9FD819C0307000A6EC78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E9AD9FDA19C0307000A6EC78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E9AD9FDD19C0307000A6EC78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9AD9FDF19C0307000A6EC78 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E9AD9FE219C0307000A6EC78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E9AD9FE819C0307000A6EC78 /* WakeMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WakeMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9AD9FED19C0307000A6EC78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9AD9FEE19C0307000A6EC78 /* WakeMusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeMusicTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9AD9FD019C0307000A6EC78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9AD9FE519C0307000A6EC78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9AD9FCA19C0307000A6EC78 = {
+			isa = PBXGroup;
+			children = (
+				E9AD9FD519C0307000A6EC78 /* WakeMusic */,
+				E9AD9FEB19C0307000A6EC78 /* WakeMusicTests */,
+				E9AD9FD419C0307000A6EC78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9AD9FD419C0307000A6EC78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9AD9FD319C0307000A6EC78 /* WakeMusic.app */,
+				E9AD9FE819C0307000A6EC78 /* WakeMusicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9AD9FD519C0307000A6EC78 /* WakeMusic */ = {
+			isa = PBXGroup;
+			children = (
+				E9AD9FD819C0307000A6EC78 /* AppDelegate.swift */,
+				E9AD9FDA19C0307000A6EC78 /* ViewController.swift */,
+				E9AD9FDC19C0307000A6EC78 /* Main.storyboard */,
+				E9AD9FDF19C0307000A6EC78 /* Images.xcassets */,
+				E9AD9FE119C0307000A6EC78 /* LaunchScreen.xib */,
+				E9AD9FD619C0307000A6EC78 /* Supporting Files */,
+			);
+			path = WakeMusic;
+			sourceTree = "<group>";
+		};
+		E9AD9FD619C0307000A6EC78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9AD9FD719C0307000A6EC78 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9AD9FEB19C0307000A6EC78 /* WakeMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9AD9FEE19C0307000A6EC78 /* WakeMusicTests.swift */,
+				E9AD9FEC19C0307000A6EC78 /* Supporting Files */,
+			);
+			path = WakeMusicTests;
+			sourceTree = "<group>";
+		};
+		E9AD9FEC19C0307000A6EC78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9AD9FED19C0307000A6EC78 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9AD9FD219C0307000A6EC78 /* WakeMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9AD9FF219C0307000A6EC78 /* Build configuration list for PBXNativeTarget "WakeMusic" */;
+			buildPhases = (
+				E9AD9FCF19C0307000A6EC78 /* Sources */,
+				E9AD9FD019C0307000A6EC78 /* Frameworks */,
+				E9AD9FD119C0307000A6EC78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WakeMusic;
+			productName = WakeMusic;
+			productReference = E9AD9FD319C0307000A6EC78 /* WakeMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9AD9FE719C0307000A6EC78 /* WakeMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9AD9FF519C0307000A6EC78 /* Build configuration list for PBXNativeTarget "WakeMusicTests" */;
+			buildPhases = (
+				E9AD9FE419C0307000A6EC78 /* Sources */,
+				E9AD9FE519C0307000A6EC78 /* Frameworks */,
+				E9AD9FE619C0307000A6EC78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9AD9FEA19C0307000A6EC78 /* PBXTargetDependency */,
+			);
+			name = WakeMusicTests;
+			productName = WakeMusicTests;
+			productReference = E9AD9FE819C0307000A6EC78 /* WakeMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9AD9FCB19C0307000A6EC78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = interfirm;
+				TargetAttributes = {
+					E9AD9FD219C0307000A6EC78 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					E9AD9FE719C0307000A6EC78 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = E9AD9FD219C0307000A6EC78;
+					};
+				};
+			};
+			buildConfigurationList = E9AD9FCE19C0307000A6EC78 /* Build configuration list for PBXProject "WakeMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9AD9FCA19C0307000A6EC78;
+			productRefGroup = E9AD9FD419C0307000A6EC78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9AD9FD219C0307000A6EC78 /* WakeMusic */,
+				E9AD9FE719C0307000A6EC78 /* WakeMusicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9AD9FD119C0307000A6EC78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9AD9FDE19C0307000A6EC78 /* Main.storyboard in Resources */,
+				E9AD9FE319C0307000A6EC78 /* LaunchScreen.xib in Resources */,
+				E9AD9FE019C0307000A6EC78 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9AD9FE619C0307000A6EC78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9AD9FCF19C0307000A6EC78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9AD9FDB19C0307000A6EC78 /* ViewController.swift in Sources */,
+				E9AD9FD919C0307000A6EC78 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9AD9FE419C0307000A6EC78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9AD9FEF19C0307000A6EC78 /* WakeMusicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9AD9FEA19C0307000A6EC78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9AD9FD219C0307000A6EC78 /* WakeMusic */;
+			targetProxy = E9AD9FE919C0307000A6EC78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9AD9FDC19C0307000A6EC78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9AD9FDD19C0307000A6EC78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9AD9FE119C0307000A6EC78 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9AD9FE219C0307000A6EC78 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9AD9FF019C0307000A6EC78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9AD9FF119C0307000A6EC78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9AD9FF319C0307000A6EC78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WakeMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E9AD9FF419C0307000A6EC78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WakeMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E9AD9FF619C0307000A6EC78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WakeMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WakeMusic.app/WakeMusic";
+			};
+			name = Debug;
+		};
+		E9AD9FF719C0307000A6EC78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WakeMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WakeMusic.app/WakeMusic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9AD9FCE19C0307000A6EC78 /* Build configuration list for PBXProject "WakeMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9AD9FF019C0307000A6EC78 /* Debug */,
+				E9AD9FF119C0307000A6EC78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9AD9FF219C0307000A6EC78 /* Build configuration list for PBXNativeTarget "WakeMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9AD9FF319C0307000A6EC78 /* Debug */,
+				E9AD9FF419C0307000A6EC78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E9AD9FF519C0307000A6EC78 /* Build configuration list for PBXNativeTarget "WakeMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9AD9FF619C0307000A6EC78 /* Debug */,
+				E9AD9FF719C0307000A6EC78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9AD9FCB19C0307000A6EC78 /* Project object */;
+}
