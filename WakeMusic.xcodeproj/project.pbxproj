@@ -9,9 +9,7 @@
 /* Begin PBXBuildFile section */
 		E9AD9FD919C0307000A6EC78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AD9FD819C0307000A6EC78 /* AppDelegate.swift */; };
 		E9AD9FDB19C0307000A6EC78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AD9FDA19C0307000A6EC78 /* ViewController.swift */; };
-		E9AD9FDE19C0307000A6EC78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9AD9FDC19C0307000A6EC78 /* Main.storyboard */; };
 		E9AD9FE019C0307000A6EC78 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9AD9FDF19C0307000A6EC78 /* Images.xcassets */; };
-		E9AD9FE319C0307000A6EC78 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9AD9FE119C0307000A6EC78 /* LaunchScreen.xib */; };
 		E9AD9FEF19C0307000A6EC78 /* WakeMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AD9FEE19C0307000A6EC78 /* WakeMusicTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,9 +28,7 @@
 		E9AD9FD719C0307000A6EC78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9AD9FD819C0307000A6EC78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9AD9FDA19C0307000A6EC78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E9AD9FDD19C0307000A6EC78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E9AD9FDF19C0307000A6EC78 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		E9AD9FE219C0307000A6EC78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E9AD9FE819C0307000A6EC78 /* WakeMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WakeMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9AD9FED19C0307000A6EC78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9AD9FEE19C0307000A6EC78 /* WakeMusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeMusicTests.swift; sourceTree = "<group>"; };
@@ -79,9 +75,7 @@
 			children = (
 				E9AD9FD819C0307000A6EC78 /* AppDelegate.swift */,
 				E9AD9FDA19C0307000A6EC78 /* ViewController.swift */,
-				E9AD9FDC19C0307000A6EC78 /* Main.storyboard */,
 				E9AD9FDF19C0307000A6EC78 /* Images.xcassets */,
-				E9AD9FE119C0307000A6EC78 /* LaunchScreen.xib */,
 				E9AD9FD619C0307000A6EC78 /* Supporting Files */,
 			);
 			path = WakeMusic;
@@ -192,8 +186,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9AD9FDE19C0307000A6EC78 /* Main.storyboard in Resources */,
-				E9AD9FE319C0307000A6EC78 /* LaunchScreen.xib in Resources */,
 				E9AD9FE019C0307000A6EC78 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,25 +226,6 @@
 			targetProxy = E9AD9FE919C0307000A6EC78 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		E9AD9FDC19C0307000A6EC78 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E9AD9FDD19C0307000A6EC78 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E9AD9FE119C0307000A6EC78 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E9AD9FE219C0307000A6EC78 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E9AD9FF019C0307000A6EC78 /* Debug */ = {
