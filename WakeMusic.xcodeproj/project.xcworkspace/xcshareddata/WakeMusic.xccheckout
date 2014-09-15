@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>42594DBC-02D0-4FB0-83EC-53D3A71A162E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WakeMusic</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>72913F180EF60BD4120E1B0596CEC04479B4851D</key>
+		<string>https://github.com/h3poteto/WakeMusic.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>WakeMusic.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>72913F180EF60BD4120E1B0596CEC04479B4851D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/h3poteto/WakeMusic.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>72913F180EF60BD4120E1B0596CEC04479B4851D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>72913F180EF60BD4120E1B0596CEC04479B4851D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WakeMusic</string>
+		</dict>
+	</array>
+</dict>
+</plist>

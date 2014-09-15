@@ -12,6 +12,8 @@
 		E9AD9FDB19C0307000A6EC78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AD9FDA19C0307000A6EC78 /* ViewController.swift */; };
 		E9AD9FE019C0307000A6EC78 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9AD9FDF19C0307000A6EC78 /* Images.xcassets */; };
 		E9AD9FEF19C0307000A6EC78 /* WakeMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AD9FEE19C0307000A6EC78 /* WakeMusicTests.swift */; };
+		E9C5DE0619C69D9000C65CC4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9C5DE0519C69D9000C65CC4 /* Default-568h@2x.png */; };
+		E9C5DE0819C69DBA00C65CC4 /* YoutubeAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C5DE0719C69DBA00C65CC4 /* YoutubeAPIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		E9AD9FE819C0307000A6EC78 /* WakeMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WakeMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9AD9FED19C0307000A6EC78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9AD9FEE19C0307000A6EC78 /* WakeMusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeMusicTests.swift; sourceTree = "<group>"; };
+		E9C5DE0519C69D9000C65CC4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E9C5DE0719C69DBA00C65CC4 /* YoutubeAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoutubeAPIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,7 @@
 		E9AD9FCA19C0307000A6EC78 = {
 			isa = PBXGroup;
 			children = (
+				E9C5DE0519C69D9000C65CC4 /* Default-568h@2x.png */,
 				E9AD9FD519C0307000A6EC78 /* WakeMusic */,
 				E9AD9FEB19C0307000A6EC78 /* WakeMusicTests */,
 				E9AD9FD419C0307000A6EC78 /* Products */,
@@ -89,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				E9AD9FD819C0307000A6EC78 /* AppDelegate.swift */,
+				E9C5DE0719C69DBA00C65CC4 /* YoutubeAPIClient.swift */,
 				E9AD9FDA19C0307000A6EC78 /* ViewController.swift */,
 				E9AD9FDF19C0307000A6EC78 /* Images.xcassets */,
 				E9AD9FD619C0307000A6EC78 /* Supporting Files */,
@@ -205,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9AD9FE019C0307000A6EC78 /* Images.xcassets in Resources */,
+				E9C5DE0619C69D9000C65CC4 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9AD9FDB19C0307000A6EC78 /* ViewController.swift in Sources */,
+				E9C5DE0819C69DBA00C65CC4 /* YoutubeAPIClient.swift in Sources */,
 				E9AD9FD919C0307000A6EC78 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
